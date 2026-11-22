@@ -1,0 +1,14 @@
+[project]
+name = "mini-newline-preservation-unifier"
+version = "0.1.0"
+description = "Normalizes mixed line endings in a string and records original offsets for mapping."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
